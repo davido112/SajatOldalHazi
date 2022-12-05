@@ -1,0 +1,167 @@
+.full {
+  background-image: url("https://cdn.discordapp.com/attachments/828549148319547392/973637123888545862/bg-search.jpg");
+  padding-left: 2em;
+}
+
+.project-base {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.base-img {
+  max-width: 200px;
+  padding-bottom: 1em;
+}
+
+.elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Roboto Mono', monospace;
+  padding: 3px;
+}
+
+.anime {
+  padding-top: 1em;
+  padding-left: 1em;
+}
+
+.sub {
+  padding-top: 1em;
+  padding-left: 10em;
+}
+
+.up-left {
+  padding-top: 1em;
+  padding-left: 1em;
+  width: 70%;
+}
+
+.down-left {
+  padding-top: 1em;
+  width: 70%;
+}
+
+.full-right {
+  padding-top: 1em;
+  width: 30%;
+}
+
+.galery {
+  padding-left: 10px;
+  max-width: 350px;
+  border-radius: 10%;
+}
+
+.down-base {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.episodes {
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+.episodes::before {
+  content: "";
+  position: absolute;
+  width: 32%;
+  height: 0.5px;
+  background: #a0a0a0;
+}
+
+.star {
+  -webkit-clip-path: polygon(evenodd, 0% 0%, 18.75% 0%, 100% 0%, 100% 100%, 0% 100%, 19.59% 86.34%, 22.87% 75.65%, 25.94% 65.1%, 6.95% 48.11%, 32.64% 37.16%, 46.75% 10%, 56.25% 36.23%, 86.5% 48.11%, 68.43% 65.54%, 77.08% 86.34%, 46.75% 74.91%, 19.8% 86.2%, 0% 100%);
+          clip-path: polygon(evenodd, 0% 0%, 18.75% 0%, 100% 0%, 100% 100%, 0% 100%, 19.59% 86.34%, 22.87% 75.65%, 25.94% 65.1%, 6.95% 48.11%, 32.64% 37.16%, 46.75% 10%, 56.25% 36.23%, 86.5% 48.11%, 68.43% 65.54%, 77.08% 86.34%, 46.75% 74.91%, 19.8% 86.2%, 0% 100%);
+  width: 20px;
+  height: 20px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.comment {
+  padding-left: 1em;
+}
+
+.prof {
+  width: 100px;
+  height: 94px;
+  border-radius: 100%;
+}
+
+.comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1em;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.writed-text {
+  padding-top: 10px;
+}
+
+.comments-text {
+  padding-left: 4px;
+}
+
+@media only screen and (max-width: 900px) {
+  .full {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .project-base {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .anime {
+    padding-left: 0;
+  }
+  .sub {
+    padding-left: 0;
+  }
+  .down-base {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .full-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=project.css.map */
